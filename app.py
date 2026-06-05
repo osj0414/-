@@ -1,4 +1,4 @@
-import streamlit as tf
+import streamlit as st  # <-- 이 부분이 tf에서 st로 수정되었습니다.
 from google import genai
 from google.genai import types
 from google.genai.errors import APIError
